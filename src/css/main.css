@@ -1,0 +1,213 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.hederis {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #FFD700;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    font-family: sans-serif;
+    box-shadow: 0px 5px 4px rgba(255, 215, 0, 0.3);;
+}
+
+#ikona {
+    width: 70px;
+    mix-blend-mode: normal;
+    margin-left: 10px;
+}
+
+.navigacija {
+    display: flex;
+    margin-left: 30%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.navigacija > div {
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navigacija > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigacija > div:hover {
+    background-color: #d8b800;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#hero-section {
+    display: flex;
+    background-color: rgba(255, 215, 0, 0.8);
+    height: 700px;
+}
+
+.hero-container {
+    display: inline-block;
+    margin-top: 150px;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+}
+
+#headline {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+#sub-headline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+
+.decor > img {
+    height: 250px;
+    width: 100%;
+    margin-top: 71%;
+}
+
+.decor {
+    background-color: white;
+    width: 350px;
+}
+
+#aboutUs-container {
+    width: 80%;
+    height: 400px;
+    margin-top: 225px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 5px solid black;
+    font-family: sans-serif;
+    padding-left: 50px;
+    align-items: center;
+}
+
+#aboutUs-container > h1 {
+    font-size: 40px;
+    width: 40%;
+}
+
+#aboutUs-container > p {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+}
+
+#aboutUs-bilde {
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.pasutit-container {
+    display: flex;
+    margin-top: 150px;
+    width: 30%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: solid 2px black;
+    background-color: rgba(245, 222, 179, 0.8);
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select {
+    text-align: center;
+    width: 225px;
+    height: 30px;
+    font-size: 14px;
+    animation-name: bigger;
+    animation-duration: 1s;
+    transition: 0.4s;
+}
+
+select:hover {
+    width: 230px;
+    height: 35px;
+}
+
+#pasutit {
+    background-color: burlywood;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    box-shadow: inset 0px -5px 5px rgb(158, 132, 96);
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+#pasutit:hover {
+    width: 110px;
+    height: 45px;
+}
+
+#pasutit:active {
+    background-color: rgb(187, 148, 98);
+}
+
+#jauns-pasut {
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+#jauns-pasut:hover {
+    cursor: pointer;
+}
+
+#kontakti {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 150px;
+    margin-top: 200px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#kontakti > h1 {
+    margin-bottom: 0;
+}
+
+#kontakti > p {
+    margin-top: 0;
+}
+
+footer {
+    display: flex;
+    background-color: #8B0000;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > p {
+    padding-left: 5px;
+    font-family: sans-serif;
+    color: white;
+}

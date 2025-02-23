@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosaukums</title>
+    <link rel="stylesheet" type="text/css" href="src/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="hederis">
+            <img src="src/images/Logo_icon.png" alt="icon" id="ikona">
+            <nav class="navigacija">
+                <div><a href="#hero-section" class="link">Sākums</a></div>
+                <div><a href="#aboutUs" class="link">Par mums</a></div>
+                <div><a href="#pasutit-section" class="link">Pasūtīt ēdienu</a></div>
+                <div><a href="#kontakti" class="link">Kontakti</a></div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero-section">
+        <div class="decor"><img src="src/images/food_image.jpg" width="150px"></div>
+        <div class="hero-container">
+            <h1 id="headline">Īpaša garša katrā kodienā!</h1> <br>
+            <p id="sub-headline">Autentiskas receptes, svaigi produkti un meistaru gatavoti ēdieni.</p>
+            
+        </div>
+    </section>
+
+    <section id="aboutUs">
+        <div id="aboutUs-container">
+            <img src="src/images/restaurant.jpg" id="aboutUs-bilde">
+            <h1>Par mums</h1>
+            <p>Laipni lūdzam Fancy taste, kur izsmalcinātas garšas satiekas ar mūžīgu eleganci.
+                Mūsu šefpavāri katru ēdienu gatavo no vislabākajām sastāvdaļām, iedvesmojoties no dažādu tautu virtuves bagātīgajām tradīcijām —
+                neatkarīgi no tā, vai tas ir smalks franču gastronomijas līdzsvars, itāļu klasikas drosmīgās garšas vai mūsdienīgi starptautiski iecienīti ēdieni.</p>
+            
+        </div>
+    </section>
+
+    <section id="pasutit-section">
+        <div class="pasutit-container">
+            <label>
+                Uzkoda <br>
+                <select id="uzkodas" class="select" name="uzkodas">
+                    <option valie="liellopa-tartars">Liellopa tartars</option>
+                    <option value="foie-gras-ar-brioche">Foie Gras ar brioche</option>
+                    <option value="burrata-ar-tomatiem">Burrata ar tomātiem</option>
+                    <option value="juras-ķemmites-ar-trifelem">Jūras ķemmītes ar trifelēm</option>
+                    <option value="francu-sipolu-zupa">Franču sīpolu zupa</option>
+                    <option value="-" selected>-</option>
+                </select>
+            </label>
+            <label>
+                Pamatēdiens <br>
+                <select id="pamatediens" class="select" name="pamatediens">
+                    <option value="filet-mignon">Filet Mignon</option>
+                    <option value="juras-asaris">Jūras asaris beurre blanc mērcē</option>
+                    <option value="midijas">Mīdijas baltvīna mērcē</option>
+                    <option value="trifelu-risotto">Trifeļu risotto</option>
+                    <option value="piles-krutina">Pīles krūtiņa ar apelsīnu glazūru</option>
+                    <option value="-" selected>-</option>
+                </select>
+            </label>
+            <label>
+                Deserts <br>
+                <select id="deserts" class="select" name="deserts">
+                    <option value="tiramisu">Tiramisu</option>
+                    <option value="sokolades-lava-kuka">Šokolādes lava kūka</option>
+                    <option value="panna-cotta">Panna Cotta</option>
+                    <option value="profiteroles-ar-sokoladi">Profiteroles ar šokolādi</option>
+                    <option value="-" selected>-</option>
+                </select>
+            </label>
+            <label>
+                Dzēriens <br>
+                <select id="dzeriens" class="select" name="dzeriens">
+                    <option value="apelsinu-sula">Svaigi spiesta apelsīnu sula</option>
+                    <option value="capuccino">Capuccino</option>
+                    <option value="japanu-zala-teja">Japāņu zaļā tēja</option>
+                    <option value="piparmetru-teja">Piparmētru tēja</option>
+                    <option value="-" selected>-</option>
+                </select>
+            </label>
+            <button type="button" id="pasutit">Pasūtīt</button>
+            <p id="jauns-pasut">Jauns Pasūtītījums</p>
+        </div>
+    </section>
+
+    <section id="kontakti">
+        <h1>Kontakti</h1>
+        <br>
+        <p>Tālrunis: +371 00 000 00 <br>
+            E-pasts: ...@gmail.com
+        </p>
+    </section>
+
+    <footer>
+            <p>Copyright &copy 2025 D.Palejs</p>
+    </footer>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
